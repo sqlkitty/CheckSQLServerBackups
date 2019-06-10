@@ -7,13 +7,8 @@ We have a monitoring tool that tells us when a backup fails. This only works if 
 
 I implemented a powershell check to run queries against the sql servers, which sends an email if any results are found. I have this running in a scheduled task daily. 
 
-Code is up in my github: 
-
-https://github.com/jabbyb/CheckSQLServerBackups
-
 The parts and pieces of this powershell check include:
-a powershell file to run the check
-loops through the sql server list and runs the query to see when the last backup was run
+a powershell file to run the check loops through the sql server list and runs the query to see when the last backup was run
 sends email if results are output to file
 a file to hold the query
 a file to hold the results
