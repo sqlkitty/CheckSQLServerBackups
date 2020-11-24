@@ -1,5 +1,5 @@
 # Check SQL Server Backups
-http://sqlkitty.com/?p=942
+https://sqlkitty.com/when-was-your-last-backup-and-email-notification-if-it-was-too-long-ago/
 
 WHEN WAS YOUR LAST BACKUP? AND EMAIL NOTIFICATION IF IT WAS “TOO LONG” AGO
 We have a monitoring tool that tells us when a backup fails. This only works if the agent is running. If the agent isn’t running, then you don’t get an email that a job failed since the job didn’t run, and the monitoring tool doesn’t send an email for missed jobs. So, basically when the agent isn’t running, it’s as if the job ran successfully (or so you think it did). This became especially problematic on production db servers where you need regular backups.
